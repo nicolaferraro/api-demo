@@ -1,0 +1,12 @@
+---
+openapi: 3.0.2
+info:
+  title: Image API
+  version: 1.0.0
+paths:
+  /:
+    post:
+      responses:
+        "200":
+          description: Image is being processed
+      operationId: image
